@@ -65,8 +65,8 @@ DualGuide-SDXL/
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/v0ntr3n/tpg_nag.git
-cd tpg_nag
+git clone https://github.com/v0ntr3n/FlashDiff.git
+cd FlashDiff
 ```
 
 2. Install dependencies:
