@@ -1,3 +1,15 @@
+[![Springer LNAI](https://img.shields.io/badge/Springer%20LNAI-IUKM%202026-blue?style=for-the-badge&logo=springer)](https://link.springer.com/chapter/10.1007/978-981-92-5644-0_12)
+[![DOI](https://img.shields.io/badge/DOI-10.1007%2F978--981--92--5644--0__12-success?style=for-the-badge)](https://doi.org/10.1007/978-981-92-5644-0_12)
+
+> ### 📄 Associated Publication (Springer LNCS / LNAI, Vol. 16919)
+> **FlashDiff: Accelerated and Guided Image Synthesis**
+> **Anh Van Tran** *(First Author)*, Van Quyen Nguyen, Ngoc Bich Do*, Nam Khanh Pham, Tien Dat Nguyen, and Van Hieu Bui
+> *International Symposium on Integrated Uncertainty in Knowledge Modelling and Decision Making (IUKM 2026)*, pp. 149–161, Springer, Singapore.
+> - **Key Results:** Combining FlashAttention with Token Perturbation Guidance (TPG) and Normalized Attention Guidance (NAG) **reduces peak GPU memory by 40%** and **increases sampling throughput by ~11.6%** over an unoptimized Diffusers baseline while consistently improving FID and CLIPScore perceptual quality.
+> - **Paper Link (DOI):** [https://doi.org/10.1007/978-981-92-5644-0_12](https://doi.org/10.1007/978-981-92-5644-0_12)
+
+---
+
 # DualGuide-SDXL
 
 **Dual Guidance for Stable Diffusion XL: Token Perturbation Guidance + Normalized Attention Guidance**
@@ -275,6 +287,24 @@ NAG enhances attention by:
    - Up layers (u0-u23): Affect fine details
 
 ## Citation
+
+### Our Paper (FlashDiff — IUKM 2026, Springer LNAI)
+
+```bibtex
+@inproceedings{tran2026flashdiff,
+  title     = {FlashDiff: Accelerated and Guided Image Synthesis},
+  author    = {Tran, Anh Van and Nguyen, Van Quyen and Do, Ngoc Bich and Pham, Nam Khanh and Nguyen, Tien Dat and Bui, Van Hieu},
+  booktitle = {Integrated Uncertainty in Knowledge Modelling and Decision Making (IUKM 2026)},
+  series    = {Lecture Notes in Computer Science (LNAI)},
+  volume    = {16919},
+  pages     = {149--161},
+  year      = {2026},
+  publisher = {Springer, Singapore},
+  doi       = {10.1007/978-981-92-5644-0_12},
+  url       = {https://doi.org/10.1007/978-981-92-5644-0_12}
+}
+```
+
 
 If you use this code in your research, please cite the relevant papers:
 
